@@ -17,10 +17,20 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faSignal } from "@fortawesome/free-solid-svg-icons";
 import { faListUl } from "@fortawesome/free-solid-svg-icons";
+import { faUserGroup } from "@fortawesome/free-solid-svg-icons";
+import { faFilm } from "@fortawesome/free-solid-svg-icons";
+
+import { faImage } from "@fortawesome/free-regular-svg-icons";
+import { faThumbsUp } from "@fortawesome/free-regular-svg-icons";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+
 /* add icons to the library */
-library.add(faUserSecret, faHouse, faMagnifyingGlass, faUser, faStar, faSignal, faListUl, faClock);
+library.add(faUserSecret, faHouse, faImage, faThumbsUp, faFilm, faUserGroup, faMagnifyingGlass, faUser, faStar, faSignal, faListUl, faClock, faLinkedin, faInstagram, faFacebook, faTwitter);
 
 const app = createApp(App);
 app.component("font-awesome-icon", FontAwesomeIcon);

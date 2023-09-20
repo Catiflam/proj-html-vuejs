@@ -23,16 +23,16 @@ export default {
 
 			<div class="head-icon">
 				<i>
-					<font-awesome-icon icon="fa-solid fa-house" />
+					<font-awesome-icon icon="fa-brands fa-linkedin" />
 				</i>
 				<i>
-					<font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+					<font-awesome-icon icon="fa-brands fa-instagram" />
 				</i>
 				<i>
-					<font-awesome-icon icon="fa-solid fa-user" />
+					<font-awesome-icon icon="fa-brands fa-facebook" />
 				</i>
 				<i>
-					<font-awesome-icon icon="fa-solid fa-star" />
+					<font-awesome-icon icon="fa-brands fa-twitter" />
 				</i>
 			</div>
 		</div>
