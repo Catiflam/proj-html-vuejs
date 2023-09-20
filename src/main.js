@@ -11,8 +11,16 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 /* import specific icons */
 import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { faSignal } from "@fortawesome/free-solid-svg-icons";
+import { faListUl } from "@fortawesome/free-solid-svg-icons";
+import { faClock } from "@fortawesome/free-regular-svg-icons";
+
 /* add icons to the library */
-library.add(faUserSecret);
+library.add(faUserSecret, faHouse, faMagnifyingGlass, faUser, faStar, faSignal, faListUl, faClock);
 
 const app = createApp(App);
 app.component("font-awesome-icon", FontAwesomeIcon);
