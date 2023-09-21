@@ -10,10 +10,10 @@ export default {
 
 <template>
 	<header>
-		<div class="container mt-5 d-flex justify-content-around">
-			<h3>MASTER <span>Study</span></h3>
+		<div class="container-md mb-4 mt-5 d-flex justify-content-around">
+			<img src="/public/MasterStudy-1.svg" alt="" />
 
-			<ul class="link-bar d-flex">
+			<ul class="link-bar d-flex gap-3">
 				<li>Courses</li>
 				<li>Courses Format</li>
 				<li>Add Course</li>
@@ -21,28 +21,19 @@ export default {
 				<li>Demos</li>
 			</ul>
 
-			<div class="head-icon">
-				<i>
-					<font-awesome-icon icon="fa-brands fa-linkedin" />
-				</i>
-				<i>
-					<font-awesome-icon icon="fa-brands fa-instagram" />
-				</i>
-				<i>
-					<font-awesome-icon icon="fa-brands fa-facebook" />
-				</i>
-				<i>
-					<font-awesome-icon icon="fa-brands fa-twitter" />
-				</i>
-			</div>
+			<ul class="link-bar d-flex gap-2">
+				<li><font-awesome-icon icon="fa-brands fa-linkedin" /></li>
+				<li><font-awesome-icon icon="fa-brands fa-instagram" /></li>
+				<li><font-awesome-icon icon="fa-brands fa-facebook" /></li>
+				<li><font-awesome-icon icon="fa-brands fa-twitter" /></li>
+			</ul>
 		</div>
 	</header>
 </template>
 
 <style lang="scss" scoped>
-.head-icon {
-	i {
-		margin: 6px;
-	}
+li {
+	list-style: none;
+	gap: 15px;
 }
 </style>
