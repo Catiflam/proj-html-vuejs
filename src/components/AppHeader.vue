@@ -10,7 +10,7 @@ export default {
 
 <template>
 	<header>
-		<div class="container-md mb-4 mt-5 d-flex justify-content-around">
+		<div class="container-md fw-bold mb-4 mt-5 d-flex justify-content-around">
 			<img src="/public/MasterStudy-1.svg" alt="" />
 
 			<ul class="link-bar d-flex gap-3">

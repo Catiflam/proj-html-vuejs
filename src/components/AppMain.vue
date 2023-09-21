@@ -69,8 +69,8 @@ export default {};
 			<h2 class="p-5">New Courses</h2>
 			<div class="row p-0">
 				<div class="col-4 mb-3">
-					<div class="card">
-						<img src="/public/images/photo-1496307042754-b4aa456c4a2d-370x200.jpeg" class="card-img-top" alt="..." />
+					<div class="card ">
+							<img src="/public/images/photo-1496307042754-b4aa456c4a2d-370x200.jpeg" class="card-img-top" alt="" />
 						<div class="card-body">
 							<h5 class="card-title">How to be a DJ? Make Electronics Music</h5>
 							<p class="card-text">Electronic</p>
@@ -292,13 +292,15 @@ export default {};
 			<div class="d-flex flex-column align-items-center">
 				<h3 class="p-5">What Students Say</h3>
 				<div class="circle-img">
+					<font-awesome-icon icon="fa-solid fa-arrow-left" size="2xl" class="arrow"/>
 					<img src="/public/images/1-100x100.jpg" alt="" />
 					<img src="/public/images/2-100x100.jpg" class="big-img" alt="" />
 					<img src="/public/images/4-100x100.jpg" alt="" />
+					<font-awesome-icon icon="fa-solid fa-arrow-right" size="2xl" class="arrow"/>
 				</div>
 				<h5 class="p-3">Paints of the Future</h5>
 
-				<div class="d-flex">
+				<div class="d-flex stars">
 					<font-awesome-icon icon="fa-solid fa-star" size="xs" class="pinted" />
 					<font-awesome-icon icon="fa-solid fa-star" size="xs" class="pinted" />
 					<font-awesome-icon icon="fa-solid fa-star" size="xs" class="pinted" />
